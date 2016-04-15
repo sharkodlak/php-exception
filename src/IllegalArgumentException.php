@@ -7,5 +7,5 @@ namespace Sharkodlak\Exception;
  * This exception is an alias for PHP InvalidArgumentException which isn't named
  * according to original JAVA name.
  */
-class IllegalArgumentException extends InvalidArgumentException {
+class IllegalArgumentException extends \InvalidArgumentException {
 }

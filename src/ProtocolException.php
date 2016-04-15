@@ -7,5 +7,5 @@ namespace Sharkodlak\Exception;
  * Subclasses are used to communicate protocol level fault information to clients
  * and may be used on the server to control the protocol specific fault representation.
  */
-class ProtocolException extends RuntimeException {
+class ProtocolException extends \RuntimeException {
 }
