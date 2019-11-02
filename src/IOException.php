@@ -7,5 +7,5 @@ namespace Sharkodlak\Exception;
  * This class is the general class of exceptions produced by failed
  * or interrupted I/O operations.
  */
-class IOException extends Exception {
+class IOException extends \Exception {
 }
